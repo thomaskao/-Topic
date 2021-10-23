@@ -36,6 +36,7 @@ namespace WinFormsApp5
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
+            this.btn_rechoose = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -108,11 +109,22 @@ namespace WinFormsApp5
             this.btn_exit.UseVisualStyleBackColor = true;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
+            // btn_rechoose
+            // 
+            this.btn_rechoose.Location = new System.Drawing.Point(624, 290);
+            this.btn_rechoose.Name = "btn_rechoose";
+            this.btn_rechoose.Size = new System.Drawing.Size(112, 34);
+            this.btn_rechoose.TabIndex = 7;
+            this.btn_rechoose.Text = "重選";
+            this.btn_rechoose.UseVisualStyleBackColor = true;
+            this.btn_rechoose.Click += new System.EventHandler(this.btn_rechoose_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_rechoose);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -122,6 +134,7 @@ namespace WinFormsApp5
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -137,6 +150,7 @@ namespace WinFormsApp5
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btn_exit;
+        private System.Windows.Forms.Button btn_rechoose;
     }
 }
 

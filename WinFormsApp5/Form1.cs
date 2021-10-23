@@ -16,6 +16,7 @@ namespace WinFormsApp5
         {
             InitializeComponent();
             pictureBox1.Image = Properties.Resources.initial;
+            this.Text = "數位電子乙級模擬器";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,6 +46,17 @@ namespace WinFormsApp5
         private void btn_exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_rechoose_Click(object sender, EventArgs e)
+        {
+            label_text.Text = "請選擇題目";
+            pictureBox1.Image = Properties.Resources.initial;
         }
     }
 }

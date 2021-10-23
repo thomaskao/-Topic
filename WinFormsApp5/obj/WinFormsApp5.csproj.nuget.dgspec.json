@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\高培恩\\source\\repos\\WinFormsApp5\\WinFormsApp5\\WinFormsApp5.csproj": {}
+    "C:\\Users\\高培恩\\OneDrive\\桌面\\-Topic\\WinFormsApp5\\WinFormsApp5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\高培恩\\source\\repos\\WinFormsApp5\\WinFormsApp5\\WinFormsApp5.csproj": {
+    "C:\\Users\\高培恩\\OneDrive\\桌面\\-Topic\\WinFormsApp5\\WinFormsApp5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\高培恩\\source\\repos\\WinFormsApp5\\WinFormsApp5\\WinFormsApp5.csproj",
+        "projectUniqueName": "C:\\Users\\高培恩\\OneDrive\\桌面\\-Topic\\WinFormsApp5\\WinFormsApp5.csproj",
         "projectName": "WinFormsApp5",
-        "projectPath": "C:\\Users\\高培恩\\source\\repos\\WinFormsApp5\\WinFormsApp5\\WinFormsApp5.csproj",
+        "projectPath": "C:\\Users\\高培恩\\OneDrive\\桌面\\-Topic\\WinFormsApp5\\WinFormsApp5.csproj",
         "packagesPath": "C:\\Users\\高培恩\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\高培恩\\source\\repos\\WinFormsApp5\\WinFormsApp5\\obj\\",
+        "outputPath": "C:\\Users\\高培恩\\OneDrive\\桌面\\-Topic\\WinFormsApp5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
